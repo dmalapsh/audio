@@ -1,0 +1,117 @@
+body{
+	font-family: Arial;
+}
+.bg{
+	background-image: url(https://pp.userapi.com/c847020/v847020119/173630/80tqdBIjoEI.jpg);
+	    background-size: cover;
+    background-position: 50%;
+    content: "";
+    width: calc(100vw + 80px);
+    height: calc(100vh + 80px);
+    position: fixed;
+    left: -40px;
+    top: -40px;
+    -webkit-filter: blur(13px);
+    -moz-filter: blur(13px);
+    -ms-filter: blur(13px);
+    -o-filter: blur(13px);
+    filter: blur(13px);
+}
+.main{
+	width: 360px;
+	max-width: calc(100vw - 20px);
+	background: #fff;
+	margin: 50px auto;
+	z-index: 2;
+	position: relative;
+}
+.main>img{
+	display: block;
+	width: 100%;
+}
+.container{
+	padding: 10px;
+}
+.info{
+	background:#f3f3f3;
+	text-transform: uppercase;
+}
+#name_grup{
+	font-weight: 700;
+}
+.player{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	flex-wrap: wrap;
+}
+#play{
+	background: #888383;
+	border-radius: 50%;
+	color: #fff;
+}
+.player>i{
+	padding: 20px;
+	display: block;
+	cursor: pointer;
+}
+.player>p{
+	width: 100%;
+	text-align: center;
+}
+.site>li{
+	list-style: none;
+	border-top: 1px solid #d6d6d6;
+	display: block;
+    color: #333;
+    text-decoration: none;
+    text-align: left;
+    border-top: 1px solid #dedede;
+    font-family: Proxima-Nova,sans-serif;
+    background-size: 30px auto;
+    background-repeat: no-repeat;
+    background-position: 18px;
+    position: relative;
+    font-size: 16px;
+    background-image: url(https://band.link/_nuxt/img/366af83.svg);
+}
+#vk{
+	background-image: url(https://band.link/_nuxt/img/1dd4c45.svg);
+}
+.site>li>a{
+	text-decoration: none;
+	color: #000;
+	padding: 10px;
+	padding-left: 60px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	align-items: center;
+}
+.site{
+	padding: 0;
+}
+.site>li>a>span{
+	padding: 10px;
+	background: #f00;
+	border-radius: 10px;
+	color:#fff;
+}
+.mu{
+	height: 100px;
+	width: 1000px;
+}
+#cl{
+	position: absolute; height: 5px; width: 5px; background: #000;
+}
+#polos{
+	width: 80%;
+	padding: 10px 0 ;
+	margin: auto;
+	cursor: pointer;
+}
+.line{
+/*	margin:10px 0;*/
+	height: 5px;
+	background: grey;
+}
